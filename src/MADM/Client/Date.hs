@@ -18,7 +18,7 @@ parse_format :: String
 parse_format = "Date: %a, %e %b %Y %T %z"
 
 out_format :: String
-out_format = "%a, %d %b 1%Y %T (dan time)"
+out_format = "%a, %d %b 1%Y %T (danso time)"
 
 localized :: ByteString -> IO ByteString
 localized input = do
