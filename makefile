@@ -1,6 +1,6 @@
 SHELL = /bin/sh
 
-HSFLAGS := -dynamic -O1 -fmax-errors=2
+HSFLAGS := -dynamic -O1 -fmax-errors=2 -j
 GHC_WARNS := -Wall -Wextra -Wmissing-exported-signatures -Widentities \
              -Wpartial-fields -Wredundant-constraints \
              -Wno-unused-imports
